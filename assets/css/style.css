@@ -129,9 +129,40 @@
 .navbar-wrap {
   display: flex;
   align-items: center;
+  gap: 40px;
+}
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 24px;
+}
+.nav-links li:last-child {
+  margin-right: 0;
+}
+.nav-links li a{
+  text-decoration: none;
+  color: var(--black);
+  font-family: satoshi;
+  font-size: 16px;
+  line-height: 1;
 }
 .navbar-icons-wrap {
-  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.navbar-search-wrap {
+  background: var(--gray);
+  padding: 12px 16px;
+  border-radius: 50px;
+}
+.search-btn {
+  border: none;
+  outline: none;
 }
 /* navbar end */
 

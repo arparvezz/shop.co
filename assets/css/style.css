@@ -72,9 +72,6 @@
   font-weight: 800;
   font-style: black;
 }
-/* font-family: 'integral-cf';
-   font-family: Satoshi;
-*/
 
 /* font's import end */
 
@@ -123,3 +120,31 @@
   font-weight: 500;
 }
 /* announcement bar section end */
+
+/* navbar start */
+.navbar-section {
+  padding: 24px 0;
+}
+
+.navbar-wrap {
+  display: flex;
+  align-items: center;
+}
+.navbar-icons-wrap {
+  margin-left: auto;
+}
+/* navbar end */
+
+/* brands logo section start */
+.brands-logo {
+  background: var(--black);
+}
+.brands-logo-wrap {
+  padding: 42px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+/* brands logo section end */
+

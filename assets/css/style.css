@@ -1,0 +1,125 @@
+:root{
+  --black: #000000;
+  --white: #ffffff;
+  --gray: #F0F0F0;
+  --bg-overlay: #F2F0F1;
+}
+
+/* font's import start */
+@font-face {
+  font-family: Satoshi;
+  src: url('../fonts/satoshi/Satoshi-Light.woff2');
+  font-weight: 300;
+  font-style: light;
+}
+@font-face {
+  font-family: Satoshi;
+  src: url('../fonts/satoshi/Satoshi-LightItalic.woff2');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: Satoshi;
+  src: url('../fonts/satoshi/Satoshi-Regular.woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Satoshi;
+  src: url('../fonts/satoshi/Satoshi-Italic.woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: Satoshi;
+  src: url('../fonts/satoshi/Satoshi-Medium.woff2');
+  font-weight: 500;
+  font-style: medium;
+}
+@font-face {
+  font-family: Satoshi;
+  src: url('../fonts/satoshi/Satoshi-MediumItalic.woff2');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: Satoshi;
+  src: url('../fonts/satoshi/Satoshi-Bold.woff2');
+  font-weight: 600;
+  font-style: bold;
+}
+@font-face {
+  font-family: Satoshi;
+  src: url('../fonts/satoshi/Satoshi-BoldItalic.woff2');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'integral-cf';
+  src: url('../fonts/integral-cf/Fontspring-DEMO-integralcf-medium.otf');
+  font-weight: 500;
+  font-style: medium;
+}
+@font-face {
+  font-family: 'integral-cf';
+  src: url('../fonts/integral-cf/Fontspring-DEMO-integralcf-bold.otf');
+  font-weight: 600;
+  font-style: bold;
+}
+@font-face {
+  font-family: 'integral-cf';
+  src: url('../fonts/integral-cf/Fontspring-DEMO-integralcf-extrabold.otf');
+  font-weight: 800;
+  font-style: black;
+}
+/* font-family: 'integral-cf';
+   font-family: Satoshi;
+*/
+
+/* font's import end */
+
+/* default styles */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Satoshi;
+}
+.container{
+  max-width: 1300px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+
+
+/* announcement bar section start */
+.announcement-bar-section {
+  background: var(--black);
+  padding: 10px 0;
+}
+.announcement-bar-wrap{
+  position: relative;
+}
+.announcement-bar-cross-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  transition: .2s ease-in;
+}
+.announcement-bar-cross-btn:hover {
+  transform: rotate(180deg);
+}
+.announcement-bar-wrap h6 {
+  color: var(--white);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+.announcement-bar-wrap h6 a{
+  color: var(--white);
+  font-weight: 500;
+}
+/* announcement bar section end */

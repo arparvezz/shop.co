@@ -135,8 +135,14 @@
 }
 /* navbar end */
 
+/* hero section start */
+.hero-wrap {
+  display: flex;
+}
+/* hero section end */
+
 /* brands logo section start */
-.brands-logo {
+.brands-logo-section {
   background: var(--black);
 }
 .brands-logo-wrap {

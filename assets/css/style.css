@@ -272,7 +272,6 @@
   color: var(--text-gray);
 }
 
-
 .hero-img-wrap {
   width: 50%;
   position: relative;
@@ -312,3 +311,102 @@
 }
 
 /* brands logo section end */
+
+
+
+/* product grid section start */
+.product-grid-section {
+  padding: 72px 0 64px 0;
+}
+.section-heading-wrap{
+  margin-bottom: 55px;
+  text-align: center;
+}
+.section-title{
+  font-family: "integral-cf";
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.product-grid-wrap {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.product-img {
+  display: flex;
+  width: 100%;
+}
+.product-info {
+  margin-top: 16px;
+}
+.product-title {
+  font-family: 'Satoshi';
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: var(--black);
+}
+.product-rating {
+  margin-top: 8px;
+  display: flex;
+  gap: 5px;
+}
+.rating-icons {
+  display: flex;
+  gap: 5px;
+}
+.rating-info p {
+  font-family: 'Satoshi';
+  font-size: 14px;
+}
+.rating-info p span{
+  color: #666666;
+}
+.product-price {
+  margin-top: 8px;
+  display: flex;
+  gap: 10px;
+}
+.current-price,
+.previous-price {
+  font-family: 'Satoshi';
+  font-size: 24px;
+}
+.previous-price{
+  color: #999999;
+  text-decoration: line-through;
+}
+.price-discount-badge {
+  font-family: 'Satoshi';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 2;
+  padding: 6px 14px;
+  border-radius: 50px;
+  background: #FFEBEB;
+  color: #FF3333;
+}
+.section-btn {
+  margin-top: 36px;
+  text-align: center;
+}
+.btn-outline {
+  width: 218px;
+  display: inline-block;
+  height: 52px;
+  border: 1px solid #E5E5E5;
+  font-family: 'Satoshi';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 3;
+  text-decoration: none;
+  border-radius: 50px;
+  color: var(--black);
+  transition: .3s ease;
+}
+.btn-outline:hover{
+  background-color: #E5E5E5;
+}

@@ -523,6 +523,7 @@
   border: 1px solid #E5E5E5;
   border-radius: 20px;
   padding: 28px 32px;
+  height: auto;
 }
 .customer-review-name {
   margin-top: 12px;
@@ -538,7 +539,6 @@
 }
 .customer-review-text p {
   margin-top: 10px;
-  margin-bottom: 22px;
   font-family: 'Satoshi';
   font-size: 16px;
   line-height: 22px;
@@ -569,3 +569,80 @@
   z-index: 2;
 }
 /* customer review section end */
+
+/* Footer Section start */
+footer {
+  background: #F0F0F0;
+}
+.newsletter-wrap {
+  padding: 36px 64px;
+  background: var(--black);
+  color: var(--white);
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  border-radius: 20px;
+  transform: translateY(-50%);
+}
+.newsletter-heading{
+  font-family: "integral-cf";
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 45px;
+}
+.newsletter-form {
+  display: flex;
+}
+.newsletter-form .form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-left: auto;
+}
+.form .email-field-wrap{
+  position: relative;
+  padding: 14px 52px;
+  width: 349px;
+  height: 48px;
+  border-radius: 62px;
+  background-color: var(--white);
+}
+.form .email-field-wrap::before {
+  content: "";
+  position: absolute;
+  background-image: url('../img/envelope-icon.svg');
+  z-index: 15;
+  width: 20px;
+  height: 20px;
+  top: 16px;
+  left: 18px;
+}
+.form .email-field-wrap input {
+  width: 100%;
+  font-family: 'Satoshi';
+  font-size: 16px;
+  color: #999999;
+  border: none;
+  outline: none;
+}
+
+.form button {
+  width: 349px;
+  height: 46px;
+  border-radius: 62px;
+  font-family: 'Satoshi';
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer-wrap {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr 1fr 1fr;
+  gap: 113.5px;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-top: 1px solid #0000001a;
+}
+/* Footer Section End */
